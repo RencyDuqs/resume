@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 30px;
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Resume {
+  border: 1px solid black;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 1020px; 
+}
+
+.Header {
+  background-color: #338078;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.Header h1 {
+  margin-bottom: 5px;
+  font-size: 3rem;
+}
+
+.Header h2 {
+  font-size: 1.7rem; 
+}
+
+.Header h3 {
+  font-size: 1rem; 
+}
+
+.Content {
+  display: flex;
+  flex-grow: 1;
+  height: auto;
+}
+
+.LeftSideContent {
+  background-color: lightgrey;
+  padding: 20px;
+  width: 250px;
+  height: 865px; 
+  text-align: right; 
+}
+
+.LeftSideContent h3 {
+  margin-bottom: 5px;
+  font-size: 1rem; 
+}
+
+.LeftSideContent p, .LeftSidebar ul {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.LeftSideContent ul {
+  list-style-type: none;
+}
+
+.LeftSideContent ul li {
+  margin-bottom: 5px;
+}
+
+.contact h3 {
+  margin-bottom: 1rem;
+  
+}
+
+.education h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.skills {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.skills h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.RightSideContent {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 20px;
+  height: 800px;
+}
+
+.RightSideContent ol {
+  list-style-type: disc;
+  font-size: 1rem;
+}
+
+.RightSidebar h3 {
+  margin-bottom: 20px;
+  font-size: 2.5rem; 
+}
+
+.WorkExperience h4 {
+  margin-bottom: 5px;
+  font-size: 2rem; 
+  font-weight: bold;
+}
+
+.WorkExperience ul {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.WorkExperience ul li {
+  margin-bottom: 5px;
+}
+
+.WorkExperience p {
+  margin-bottom: 10px;
+  font-style: italic;
+}
